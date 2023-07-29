@@ -9,7 +9,7 @@ public class Adder implements Runnable{
     }
 
     public void run(){
-        for(int i = 1 ; i <= 10000 ; i++){
+        for(int i = 1 ; i <= 100000 ; i++){
             value.val += i;
         }
     }
