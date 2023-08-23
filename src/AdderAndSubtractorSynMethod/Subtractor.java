@@ -9,9 +9,7 @@ public class Subtractor implements Runnable{
 
     public void run(){
         for(int i = 1 ; i <= 100000 ; i++){
-            synchronized (value){
-                value.sub(i);
-            }
+            value.sub(i);
         }
     }
 
