@@ -9,9 +9,7 @@ public class Adder implements Runnable{
 
     public void run(){
         for(int i = 1 ; i <= 100000 ; i++){
-            synchronized (value){
-                value.add(i);
-            }
+            value.add(i);
         }
     }
 }
